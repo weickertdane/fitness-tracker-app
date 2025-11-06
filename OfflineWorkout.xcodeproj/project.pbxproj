@@ -1,0 +1,1289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0907C5D12E9CC1B400220B7B /* OfflineWorkoutWatch Watch App.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */; };
+		0963A51D2EA5842900547D18 /* OfflineWorkoutWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		09D2FEF92E8B647700EAC291 /* WatchSyncCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2FEF72E8B647700EAC291 /* WatchSyncCenter.swift */; };
+		09D2FEFA2E8B647700EAC291 /* WatchSyncCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2FEF72E8B647700EAC291 /* WatchSyncCenter.swift */; };
+		09DF86D22E823CD1007F4BD9 /* HistoryCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C72E823CD1007F4BD9 /* HistoryCalendarView.swift */; };
+		09DF86D32E823CD1007F4BD9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86CF2E823CD1007F4BD9 /* Item.swift */; };
+		09DF86D42E823CD1007F4BD9 /* ExerciseLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C62E823CD1007F4BD9 /* ExerciseLibraryView.swift */; };
+		09DF86D52E823CD1007F4BD9 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C92E823CD1007F4BD9 /* WorkoutDetailView.swift */; };
+		09DF86D62E823CD1007F4BD9 /* OfflineWorkoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86D02E823CD1007F4BD9 /* OfflineWorkoutApp.swift */; };
+		09DF86D72E823CD1007F4BD9 /* ExerciseFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C52E823CD1007F4BD9 /* ExerciseFormView.swift */; };
+		09DF86D82E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C22E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift */; };
+		09DF86D92E823CD1007F4BD9 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C82E823CD1007F4BD9 /* RootTabView.swift */; };
+		09DF86DA2E823CD1007F4BD9 /* WorkoutListForDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86CA2E823CD1007F4BD9 /* WorkoutListForDayView.swift */; };
+		09DF86DC2E823CD1007F4BD9 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C32E823CD1007F4BD9 /* HistoryViewModel.swift */; };
+		09DF86DE2E823CD1007F4BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DF86CC2E823CD1007F4BD9 /* Assets.xcassets */; };
+		09DF86EE2E823CE2007F4BD9 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E82E823CE2007F4BD9 /* Workout.swift */; };
+		09DF86EF2E823CE2007F4BD9 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E12E823CE2007F4BD9 /* HealthKitManager.swift */; };
+		09DF86F02E823CE2007F4BD9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86DF2E823CE2007F4BD9 /* Theme.swift */; };
+		09DF86F12E823CE2007F4BD9 /* MetricType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E72E823CE2007F4BD9 /* MetricType.swift */; };
+		09DF86F22E823CE2007F4BD9 /* CloudKitSyncStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86EA2E823CE2007F4BD9 /* CloudKitSyncStatus.swift */; };
+		09DF86F32E823CE2007F4BD9 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E62E823CE2007F4BD9 /* Goal.swift */; };
+		09DF86F42E823CE2007F4BD9 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E42E823CE2007F4BD9 /* Exercise.swift */; };
+		09DF86F52E823CE2007F4BD9 /* ExerciseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E52E823CE2007F4BD9 /* ExerciseSet.swift */; };
+		09DF86F62E823CE2007F4BD9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86EB2E823CE2007F4BD9 /* Persistence.swift */; };
+		09DF86F72E823CE2007F4BD9 /* BodyPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E32E823CE2007F4BD9 /* BodyPart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0907C57A2E9CB78600220B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0914AF002E82393600620D65;
+			remoteInfo = "OfflineWorkoutWatch Watch App";
+		};
+		0914AF032E82393600620D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0914AF002E82393600620D65;
+			remoteInfo = "OfflineWorkoutWatch Watch App";
+		};
+		0914AF112E82393700620D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0914AF002E82393600620D65;
+			remoteInfo = "OfflineWorkoutWatch Watch App";
+		};
+		0914AF1B2E82393700620D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0914AF002E82393600620D65;
+			remoteInfo = "OfflineWorkoutWatch Watch App";
+		};
+		0963A51E2EA5842900547D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0914AF002E82393600620D65;
+			remoteInfo = "OfflineWorkoutWatch Watch App";
+		};
+		0963A5212EA5849400547D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0914AF002E82393600620D65;
+			remoteInfo = "OfflineWorkoutWatch Watch App";
+		};
+		09C9B5462E823767009D6949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C9B5332E823764009D6949;
+			remoteInfo = OfflineWorkout;
+		};
+		09C9B5502E823767009D6949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C9B5332E823764009D6949;
+			remoteInfo = OfflineWorkout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0907C56F2E9C1B3200220B7B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = Watch;
+			dstSubfolderSpec = 16;
+			files = (
+				0907C5D12E9CC1B400220B7B /* OfflineWorkoutWatch Watch App.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914AF252E82393700620D65 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0963A5202EA5842900547D18 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0963A51D2EA5842900547D18 /* OfflineWorkoutWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0907C5842E9CC0F500220B7B /* OfflineWorkoutWatch Watch App.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = "OfflineWorkoutWatch Watch App.app"; path = "Build/Products/Debug-watchos/OfflineWorkoutWatch Watch App.app"; sourceTree = "<group>"; };
+		0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OfflineWorkoutWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0914AEFC2E82393600620D65 /* OfflineWorkoutWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineWorkoutWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0914AF102E82393700620D65 /* OfflineWorkoutWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OfflineWorkoutWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0914AF1A2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OfflineWorkoutWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C9B5342E823764009D6949 /* OfflineWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C9B5452E823767009D6949 /* OfflineWorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfflineWorkoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C9B54F2E823767009D6949 /* OfflineWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfflineWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D2FEF72E8B647700EAC291 /* WatchSyncCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSyncCenter.swift; sourceTree = "<group>"; };
+		09DF86C22E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLibraryViewModel.swift; sourceTree = "<group>"; };
+		09DF86C32E823CD1007F4BD9 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		09DF86C52E823CD1007F4BD9 /* ExerciseFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseFormView.swift; sourceTree = "<group>"; };
+		09DF86C62E823CD1007F4BD9 /* ExerciseLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLibraryView.swift; sourceTree = "<group>"; };
+		09DF86C72E823CD1007F4BD9 /* HistoryCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCalendarView.swift; sourceTree = "<group>"; };
+		09DF86C82E823CD1007F4BD9 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		09DF86C92E823CD1007F4BD9 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		09DF86CA2E823CD1007F4BD9 /* WorkoutListForDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListForDayView.swift; sourceTree = "<group>"; };
+		09DF86CC2E823CD1007F4BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09DF86CE2E823CD1007F4BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DF86CF2E823CD1007F4BD9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		09DF86D02E823CD1007F4BD9 /* OfflineWorkoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineWorkoutApp.swift; sourceTree = "<group>"; };
+		09DF86DF2E823CE2007F4BD9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		09DF86E12E823CE2007F4BD9 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		09DF86E32E823CE2007F4BD9 /* BodyPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPart.swift; sourceTree = "<group>"; };
+		09DF86E42E823CE2007F4BD9 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		09DF86E52E823CE2007F4BD9 /* ExerciseSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSet.swift; sourceTree = "<group>"; };
+		09DF86E62E823CE2007F4BD9 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		09DF86E72E823CE2007F4BD9 /* MetricType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricType.swift; sourceTree = "<group>"; };
+		09DF86E82E823CE2007F4BD9 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		09DF86EA2E823CE2007F4BD9 /* CloudKitSyncStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSyncStatus.swift; sourceTree = "<group>"; };
+		09DF86EB2E823CE2007F4BD9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		09F556ED2E823D8500020C04 /* OfflineWorkout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OfflineWorkout.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0914AF052E82393600620D65 /* OfflineWorkoutWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OfflineWorkoutWatch Watch App";
+			sourceTree = "<group>";
+		};
+		0914AF132E82393700620D65 /* OfflineWorkoutWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OfflineWorkoutWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0914AF1D2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OfflineWorkoutWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0914AEFE2E82393600620D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914AF0D2E82393700620D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914AF172E82393700620D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9B5312E823764009D6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9B5422E823767009D6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9B54C2E823767009D6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0963A51C2EA5842900547D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09C9B52B2E823764009D6949 = {
+			isa = PBXGroup;
+			children = (
+				0907C5842E9CC0F500220B7B /* OfflineWorkoutWatch Watch App.app */,
+				09F556ED2E823D8500020C04 /* OfflineWorkout.entitlements */,
+				09DF86D12E823CD1007F4BD9 /* OfflineWorkoutApp */,
+				0914AF052E82393600620D65 /* OfflineWorkoutWatch Watch App */,
+				0914AF132E82393700620D65 /* OfflineWorkoutWatch Watch AppTests */,
+				0914AF1D2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests */,
+				09C9B5352E823764009D6949 /* Products */,
+				09DF86ED2E823CE2007F4BD9 /* Shared */,
+				0963A51C2EA5842900547D18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09C9B5352E823764009D6949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C9B5342E823764009D6949 /* OfflineWorkout.app */,
+				09C9B5452E823767009D6949 /* OfflineWorkoutTests.xctest */,
+				09C9B54F2E823767009D6949 /* OfflineWorkoutUITests.xctest */,
+				0914AEFC2E82393600620D65 /* OfflineWorkoutWatch.app */,
+				0914AF102E82393700620D65 /* OfflineWorkoutWatch Watch AppTests.xctest */,
+				0914AF1A2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests.xctest */,
+				0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09D2FEF82E8B647700EAC291 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				09D2FEF72E8B647700EAC291 /* WatchSyncCenter.swift */,
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		09DF86C42E823CD1007F4BD9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				09DF86C22E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift */,
+				09DF86C32E823CD1007F4BD9 /* HistoryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		09DF86CB2E823CD1007F4BD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09DF86C52E823CD1007F4BD9 /* ExerciseFormView.swift */,
+				09DF86C62E823CD1007F4BD9 /* ExerciseLibraryView.swift */,
+				09DF86C72E823CD1007F4BD9 /* HistoryCalendarView.swift */,
+				09DF86C82E823CD1007F4BD9 /* RootTabView.swift */,
+				09DF86C92E823CD1007F4BD9 /* WorkoutDetailView.swift */,
+				09DF86CA2E823CD1007F4BD9 /* WorkoutListForDayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09DF86D12E823CD1007F4BD9 /* OfflineWorkoutApp */ = {
+			isa = PBXGroup;
+			children = (
+				09DF86C42E823CD1007F4BD9 /* ViewModels */,
+				09DF86CB2E823CD1007F4BD9 /* Views */,
+				09DF86CC2E823CD1007F4BD9 /* Assets.xcassets */,
+				09DF86CE2E823CD1007F4BD9 /* Info.plist */,
+				09DF86CF2E823CD1007F4BD9 /* Item.swift */,
+				09DF86D02E823CD1007F4BD9 /* OfflineWorkoutApp.swift */,
+			);
+			path = OfflineWorkoutApp;
+			sourceTree = "<group>";
+		};
+		09DF86E02E823CE2007F4BD9 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				09DF86DF2E823CE2007F4BD9 /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		09DF86E22E823CE2007F4BD9 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				09DF86E12E823CE2007F4BD9 /* HealthKitManager.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		09DF86E92E823CE2007F4BD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09DF86E32E823CE2007F4BD9 /* BodyPart.swift */,
+				09DF86E42E823CE2007F4BD9 /* Exercise.swift */,
+				09DF86E52E823CE2007F4BD9 /* ExerciseSet.swift */,
+				09DF86E62E823CE2007F4BD9 /* Goal.swift */,
+				09DF86E72E823CE2007F4BD9 /* MetricType.swift */,
+				09DF86E82E823CE2007F4BD9 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09DF86EC2E823CE2007F4BD9 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				09DF86EA2E823CE2007F4BD9 /* CloudKitSyncStatus.swift */,
+				09DF86EB2E823CE2007F4BD9 /* Persistence.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		09DF86ED2E823CE2007F4BD9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				09D2FEF82E8B647700EAC291 /* Sync */,
+				09DF86E02E823CE2007F4BD9 /* Design */,
+				09DF86E22E823CE2007F4BD9 /* Health */,
+				09DF86E92E823CE2007F4BD9 /* Models */,
+				09DF86EC2E823CE2007F4BD9 /* Persistence */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0914AEFB2E82393600620D65 /* OfflineWorkoutWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0914AF262E82393700620D65 /* Build configuration list for PBXNativeTarget "OfflineWorkoutWatch" */;
+			buildPhases = (
+				0914AEFA2E82393600620D65 /* Resources */,
+				0914AF252E82393700620D65 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0914AF042E82393600620D65 /* PBXTargetDependency */,
+			);
+			name = OfflineWorkoutWatch;
+			packageProductDependencies = (
+			);
+			productName = OfflineWorkoutWatch;
+			productReference = 0914AEFC2E82393600620D65 /* OfflineWorkoutWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0914AF222E82393700620D65 /* Build configuration list for PBXNativeTarget "OfflineWorkoutWatch Watch App" */;
+			buildPhases = (
+				0914AEFD2E82393600620D65 /* Sources */,
+				0914AEFE2E82393600620D65 /* Frameworks */,
+				0914AEFF2E82393600620D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0914AF052E82393600620D65 /* OfflineWorkoutWatch Watch App */,
+			);
+			name = "OfflineWorkoutWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "OfflineWorkoutWatch Watch App";
+			productReference = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0914AF0F2E82393700620D65 /* OfflineWorkoutWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0914AF292E82393700620D65 /* Build configuration list for PBXNativeTarget "OfflineWorkoutWatch Watch AppTests" */;
+			buildPhases = (
+				0914AF0C2E82393700620D65 /* Sources */,
+				0914AF0D2E82393700620D65 /* Frameworks */,
+				0914AF0E2E82393700620D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0914AF122E82393700620D65 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0914AF132E82393700620D65 /* OfflineWorkoutWatch Watch AppTests */,
+			);
+			name = "OfflineWorkoutWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "OfflineWorkoutWatch Watch AppTests";
+			productReference = 0914AF102E82393700620D65 /* OfflineWorkoutWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0914AF192E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0914AF2C2E82393700620D65 /* Build configuration list for PBXNativeTarget "OfflineWorkoutWatch Watch AppUITests" */;
+			buildPhases = (
+				0914AF162E82393700620D65 /* Sources */,
+				0914AF172E82393700620D65 /* Frameworks */,
+				0914AF182E82393700620D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0914AF1C2E82393700620D65 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0914AF1D2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests */,
+			);
+			name = "OfflineWorkoutWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "OfflineWorkoutWatch Watch AppUITests";
+			productReference = 0914AF1A2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		09C9B5332E823764009D6949 /* OfflineWorkout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C9B5582E823767009D6949 /* Build configuration list for PBXNativeTarget "OfflineWorkout" */;
+			buildPhases = (
+				09C9B5302E823764009D6949 /* Sources */,
+				09C9B5312E823764009D6949 /* Frameworks */,
+				09C9B5322E823764009D6949 /* Resources */,
+				0907C56F2E9C1B3200220B7B /* CopyFiles */,
+				0963A5202EA5842900547D18 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0907C57B2E9CB78600220B7B /* PBXTargetDependency */,
+				0963A51F2EA5842900547D18 /* PBXTargetDependency */,
+				0963A5222EA5849400547D18 /* PBXTargetDependency */,
+			);
+			name = OfflineWorkout;
+			packageProductDependencies = (
+			);
+			productName = OfflineWorkout;
+			productReference = 09C9B5342E823764009D6949 /* OfflineWorkout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09C9B5442E823767009D6949 /* OfflineWorkoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C9B55D2E823767009D6949 /* Build configuration list for PBXNativeTarget "OfflineWorkoutTests" */;
+			buildPhases = (
+				09C9B5412E823767009D6949 /* Sources */,
+				09C9B5422E823767009D6949 /* Frameworks */,
+				09C9B5432E823767009D6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C9B5472E823767009D6949 /* PBXTargetDependency */,
+			);
+			name = OfflineWorkoutTests;
+			packageProductDependencies = (
+			);
+			productName = OfflineWorkoutTests;
+			productReference = 09C9B5452E823767009D6949 /* OfflineWorkoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09C9B54E2E823767009D6949 /* OfflineWorkoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C9B5602E823767009D6949 /* Build configuration list for PBXNativeTarget "OfflineWorkoutUITests" */;
+			buildPhases = (
+				09C9B54B2E823767009D6949 /* Sources */,
+				09C9B54C2E823767009D6949 /* Frameworks */,
+				09C9B54D2E823767009D6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C9B5512E823767009D6949 /* PBXTargetDependency */,
+			);
+			name = OfflineWorkoutUITests;
+			packageProductDependencies = (
+			);
+			productName = OfflineWorkoutUITests;
+			productReference = 09C9B54F2E823767009D6949 /* OfflineWorkoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C9B52C2E823764009D6949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					0914AEFB2E82393600620D65 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					0914AF002E82393600620D65 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					0914AF0F2E82393700620D65 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 0914AF002E82393600620D65;
+					};
+					0914AF192E82393700620D65 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 0914AF002E82393600620D65;
+					};
+					09C9B5332E823764009D6949 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					09C9B5442E823767009D6949 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 09C9B5332E823764009D6949;
+					};
+					09C9B54E2E823767009D6949 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 09C9B5332E823764009D6949;
+					};
+				};
+			};
+			buildConfigurationList = 09C9B52F2E823764009D6949 /* Build configuration list for PBXProject "OfflineWorkout" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C9B52B2E823764009D6949;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 09C9B5352E823764009D6949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C9B5332E823764009D6949 /* OfflineWorkout */,
+				09C9B5442E823767009D6949 /* OfflineWorkoutTests */,
+				09C9B54E2E823767009D6949 /* OfflineWorkoutUITests */,
+				0914AEFB2E82393600620D65 /* OfflineWorkoutWatch */,
+				0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */,
+				0914AF0F2E82393700620D65 /* OfflineWorkoutWatch Watch AppTests */,
+				0914AF192E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0914AEFA2E82393600620D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914AEFF2E82393600620D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914AF0E2E82393700620D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914AF182E82393700620D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9B5322E823764009D6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DF86DE2E823CD1007F4BD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9B5432E823767009D6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9B54D2E823767009D6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0914AEFD2E82393600620D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D2FEFA2E8B647700EAC291 /* WatchSyncCenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914AF0C2E82393700620D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914AF162E82393700620D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9B5302E823764009D6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DF86D22E823CD1007F4BD9 /* HistoryCalendarView.swift in Sources */,
+				09DF86D32E823CD1007F4BD9 /* Item.swift in Sources */,
+				09DF86D42E823CD1007F4BD9 /* ExerciseLibraryView.swift in Sources */,
+				09DF86D52E823CD1007F4BD9 /* WorkoutDetailView.swift in Sources */,
+				09DF86D62E823CD1007F4BD9 /* OfflineWorkoutApp.swift in Sources */,
+				09DF86D72E823CD1007F4BD9 /* ExerciseFormView.swift in Sources */,
+				09DF86D82E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift in Sources */,
+				09DF86D92E823CD1007F4BD9 /* RootTabView.swift in Sources */,
+				09DF86DA2E823CD1007F4BD9 /* WorkoutListForDayView.swift in Sources */,
+				09DF86EE2E823CE2007F4BD9 /* Workout.swift in Sources */,
+				09DF86EF2E823CE2007F4BD9 /* HealthKitManager.swift in Sources */,
+				09DF86F02E823CE2007F4BD9 /* Theme.swift in Sources */,
+				09DF86F12E823CE2007F4BD9 /* MetricType.swift in Sources */,
+				09D2FEF92E8B647700EAC291 /* WatchSyncCenter.swift in Sources */,
+				09DF86F22E823CE2007F4BD9 /* CloudKitSyncStatus.swift in Sources */,
+				09DF86F32E823CE2007F4BD9 /* Goal.swift in Sources */,
+				09DF86F42E823CE2007F4BD9 /* Exercise.swift in Sources */,
+				09DF86F52E823CE2007F4BD9 /* ExerciseSet.swift in Sources */,
+				09DF86F62E823CE2007F4BD9 /* Persistence.swift in Sources */,
+				09DF86F72E823CE2007F4BD9 /* BodyPart.swift in Sources */,
+				09DF86DC2E823CD1007F4BD9 /* HistoryViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9B5412E823767009D6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C9B54B2E823767009D6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0907C57B2E9CB78600220B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
+			targetProxy = 0907C57A2E9CB78600220B7B /* PBXContainerItemProxy */;
+		};
+		0914AF042E82393600620D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
+			targetProxy = 0914AF032E82393600620D65 /* PBXContainerItemProxy */;
+		};
+		0914AF122E82393700620D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
+			targetProxy = 0914AF112E82393700620D65 /* PBXContainerItemProxy */;
+		};
+		0914AF1C2E82393700620D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
+			targetProxy = 0914AF1B2E82393700620D65 /* PBXContainerItemProxy */;
+		};
+		0963A51F2EA5842900547D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
+			targetProxy = 0963A51E2EA5842900547D18 /* PBXContainerItemProxy */;
+		};
+		0963A5222EA5849400547D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
+			targetProxy = 0963A5212EA5849400547D18 /* PBXContainerItemProxy */;
+		};
+		09C9B5472E823767009D6949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C9B5332E823764009D6949 /* OfflineWorkout */;
+			targetProxy = 09C9B5462E823767009D6949 /* PBXContainerItemProxy */;
+		};
+		09C9B5512E823767009D6949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C9B5332E823764009D6949 /* OfflineWorkout */;
+			targetProxy = 09C9B5502E823767009D6949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0914AF232E82393700620D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OfflineWorkoutWatch Watch App/OfflineWorkoutWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OfflineWorkoutWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Tracker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your workout data to track, pause, and save your offline sessions.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes workout data to Apple Health to keep your fitness data in sync.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				"INFOPLIST_KEY_WKCompanionAppBundleIdentifier[sdk=*]" = com.daneweickert.OfflineWorkout;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkout.watchapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		0914AF242E82393700620D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OfflineWorkoutWatch Watch App/OfflineWorkoutWatch Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OfflineWorkoutWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Tracker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your workout data to track, pause, and save your offline sessions.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes workout data to Apple Health to keep your fitness data in sync.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				"INFOPLIST_KEY_WKCompanionAppBundleIdentifier[sdk=*]" = com.daneweickert.OfflineWorkout;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkout.watchapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		0914AF272E82393700620D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				INFOPLIST_KEY_CFBundleDisplayName = Tracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkoutWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0914AF282E82393700620D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				INFOPLIST_KEY_CFBundleDisplayName = Tracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkoutWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0914AF2A2E82393700620D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daneweickert.OfflineWorkoutWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfflineWorkoutWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OfflineWorkoutWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11;
+			};
+			name = Debug;
+		};
+		0914AF2B2E82393700620D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daneweickert.OfflineWorkoutWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfflineWorkoutWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OfflineWorkoutWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11;
+			};
+			name = Release;
+		};
+		0914AF2D2E82393700620D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daneweickert.OfflineWorkoutWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "OfflineWorkoutWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11;
+			};
+			name = Debug;
+		};
+		0914AF2E2E82393700620D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daneweickert.OfflineWorkoutWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "OfflineWorkoutWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11;
+			};
+			name = Release;
+		};
+		09C9B5592E823767009D6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OfflineWorkout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OfflineWorkoutApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = tracker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app reads health data to sync your workouts with Apple Health.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes workout data to Apple Health to keep your fitness data in sync.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09C9B55A2E823767009D6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OfflineWorkout.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OfflineWorkoutApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = tracker;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app reads health data to sync your workouts with Apple Health.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes workout data to Apple Health to keep your fitness data in sync.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09C9B55B2E823767009D6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09C9B55C2E823767009D6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C9B55E2E823767009D6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfflineWorkout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OfflineWorkout";
+			};
+			name = Debug;
+		};
+		09C9B55F2E823767009D6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfflineWorkout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OfflineWorkout";
+			};
+			name = Release;
+		};
+		09C9B5612E823767009D6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OfflineWorkout;
+			};
+			name = Debug;
+		};
+		09C9B5622E823767009D6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OfflineWorkout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0914AF222E82393700620D65 /* Build configuration list for PBXNativeTarget "OfflineWorkoutWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914AF232E82393700620D65 /* Debug */,
+				0914AF242E82393700620D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0914AF262E82393700620D65 /* Build configuration list for PBXNativeTarget "OfflineWorkoutWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914AF272E82393700620D65 /* Debug */,
+				0914AF282E82393700620D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0914AF292E82393700620D65 /* Build configuration list for PBXNativeTarget "OfflineWorkoutWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914AF2A2E82393700620D65 /* Debug */,
+				0914AF2B2E82393700620D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0914AF2C2E82393700620D65 /* Build configuration list for PBXNativeTarget "OfflineWorkoutWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914AF2D2E82393700620D65 /* Debug */,
+				0914AF2E2E82393700620D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C9B52F2E823764009D6949 /* Build configuration list for PBXProject "OfflineWorkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C9B55B2E823767009D6949 /* Debug */,
+				09C9B55C2E823767009D6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C9B5582E823767009D6949 /* Build configuration list for PBXNativeTarget "OfflineWorkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C9B5592E823767009D6949 /* Debug */,
+				09C9B55A2E823767009D6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C9B55D2E823767009D6949 /* Build configuration list for PBXNativeTarget "OfflineWorkoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C9B55E2E823767009D6949 /* Debug */,
+				09C9B55F2E823767009D6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C9B5602E823767009D6949 /* Build configuration list for PBXNativeTarget "OfflineWorkoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C9B5612E823767009D6949 /* Debug */,
+				09C9B5622E823767009D6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C9B52C2E823764009D6949 /* Project object */;
+}

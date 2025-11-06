@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>OfflineWorkout integrates with Apple Health to read your workout history and provide a unified view of your fitness activity. Your workout data remains private and secure on your device.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>OfflineWorkout saves your completed workouts to Apple Health so you can track your fitness progress across all your health apps. This includes workout sessions, exercise metrics, reps, sets, weight, duration, distance, and step counts.</string>
+</dict>
+</plist>
