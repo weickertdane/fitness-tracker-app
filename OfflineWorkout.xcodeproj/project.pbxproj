@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0907C5D12E9CC1B400220B7B /* OfflineWorkoutWatch Watch App.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */; };
 		0963A51D2EA5842900547D18 /* OfflineWorkoutWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		09D1527E2EBC250A007959A0 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E12E823CE2007F4BD9 /* HealthKitManager.swift */; };
 		09D2FEF92E8B647700EAC291 /* WatchSyncCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2FEF72E8B647700EAC291 /* WatchSyncCenter.swift */; };
 		09D2FEFA2E8B647700EAC291 /* WatchSyncCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2FEF72E8B647700EAC291 /* WatchSyncCenter.swift */; };
 		09DF86D22E823CD1007F4BD9 /* HistoryCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C72E823CD1007F4BD9 /* HistoryCalendarView.swift */; };
@@ -630,6 +631,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D2FEFA2E8B647700EAC291 /* WatchSyncCenter.swift in Sources */,
+				09DF86EF2E823CE2007F4BD9 /* HealthKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,7 +663,7 @@
 				09DF86D92E823CD1007F4BD9 /* RootTabView.swift in Sources */,
 				09DF86DA2E823CD1007F4BD9 /* WorkoutListForDayView.swift in Sources */,
 				09DF86EE2E823CE2007F4BD9 /* Workout.swift in Sources */,
-				09DF86EF2E823CE2007F4BD9 /* HealthKitManager.swift in Sources */,
+				09D1527E2EBC250A007959A0 /* HealthKitManager.swift in Sources */,
 				09DF86F02E823CE2007F4BD9 /* Theme.swift in Sources */,
 				09DF86F12E823CE2007F4BD9 /* MetricType.swift in Sources */,
 				09D2FEF92E8B647700EAC291 /* WatchSyncCenter.swift in Sources */,
