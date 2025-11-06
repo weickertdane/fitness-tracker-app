@@ -21,6 +21,7 @@
 		09DF86D82E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C22E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift */; };
 		09DF86D92E823CD1007F4BD9 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C82E823CD1007F4BD9 /* RootTabView.swift */; };
 		09DF86DA2E823CD1007F4BD9 /* WorkoutListForDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86CA2E823CD1007F4BD9 /* WorkoutListForDayView.swift */; };
+		09AA11112EBC260000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA22222EBC260000000001 /* SettingsView.swift */; };
 		09DF86DC2E823CD1007F4BD9 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C32E823CD1007F4BD9 /* HistoryViewModel.swift */; };
 		09DF86DE2E823CD1007F4BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DF86CC2E823CD1007F4BD9 /* Assets.xcassets */; };
 		09DF86EE2E823CE2007F4BD9 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E82E823CE2007F4BD9 /* Workout.swift */; };
@@ -146,6 +147,7 @@
 		09DF86C82E823CD1007F4BD9 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		09DF86C92E823CD1007F4BD9 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
 		09DF86CA2E823CD1007F4BD9 /* WorkoutListForDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListForDayView.swift; sourceTree = "<group>"; };
+		09AA22222EBC260000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		09DF86CC2E823CD1007F4BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09DF86CE2E823CD1007F4BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09DF86CF2E823CD1007F4BD9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 				09DF86C62E823CD1007F4BD9 /* ExerciseLibraryView.swift */,
 				09DF86C72E823CD1007F4BD9 /* HistoryCalendarView.swift */,
 				09DF86C82E823CD1007F4BD9 /* RootTabView.swift */,
+				09AA22222EBC260000000001 /* SettingsView.swift */,
 				09DF86C92E823CD1007F4BD9 /* WorkoutDetailView.swift */,
 				09DF86CA2E823CD1007F4BD9 /* WorkoutListForDayView.swift */,
 			);
@@ -662,6 +665,7 @@
 				09DF86D82E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift in Sources */,
 				09DF86D92E823CD1007F4BD9 /* RootTabView.swift in Sources */,
 				09DF86DA2E823CD1007F4BD9 /* WorkoutListForDayView.swift in Sources */,
+				09AA11112EBC260000000001 /* SettingsView.swift in Sources */,
 				09DF86EE2E823CE2007F4BD9 /* Workout.swift in Sources */,
 				09D1527E2EBC250A007959A0 /* HealthKitManager.swift in Sources */,
 				09DF86F02E823CE2007F4BD9 /* Theme.swift in Sources */,
