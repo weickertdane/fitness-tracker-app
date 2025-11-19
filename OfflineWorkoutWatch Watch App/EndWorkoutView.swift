@@ -15,11 +15,6 @@ struct EndWorkoutView: View {
                     .font(.system(size: 50))
                     .foregroundColor(.green)
                 
-                // Title
-                Text("End Workout?")
-                    .font(.title2)
-                    .fontWeight(.semibold)
-                
                 // Workout Summary
                 if let workout = viewModel.currentWorkout {
                     VStack(spacing: 8) {
@@ -39,8 +34,6 @@ struct EndWorkoutView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 12))
                 }
                 
-                // HealthKit Integration Indicator - REQUIRED for App Store compliance
-                healthKitIndicator
                 
                 // Action Buttons
                 VStack(spacing: 12) {

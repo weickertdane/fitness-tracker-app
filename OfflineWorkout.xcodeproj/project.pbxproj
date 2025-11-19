@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0907C5D12E9CC1B400220B7B /* OfflineWorkoutWatch Watch App.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */; };
 		0963A51D2EA5842900547D18 /* OfflineWorkoutWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		09AA11112EBC260000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA22222EBC260000000001 /* SettingsView.swift */; };
 		09D1527E2EBC250A007959A0 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E12E823CE2007F4BD9 /* HealthKitManager.swift */; };
 		09D2FEF92E8B647700EAC291 /* WatchSyncCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2FEF72E8B647700EAC291 /* WatchSyncCenter.swift */; };
 		09D2FEFA2E8B647700EAC291 /* WatchSyncCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D2FEF72E8B647700EAC291 /* WatchSyncCenter.swift */; };
@@ -21,7 +22,6 @@
 		09DF86D82E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C22E823CD1007F4BD9 /* ExerciseLibraryViewModel.swift */; };
 		09DF86D92E823CD1007F4BD9 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C82E823CD1007F4BD9 /* RootTabView.swift */; };
 		09DF86DA2E823CD1007F4BD9 /* WorkoutListForDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86CA2E823CD1007F4BD9 /* WorkoutListForDayView.swift */; };
-		09AA11112EBC260000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA22222EBC260000000001 /* SettingsView.swift */; };
 		09DF86DC2E823CD1007F4BD9 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86C32E823CD1007F4BD9 /* HistoryViewModel.swift */; };
 		09DF86DE2E823CD1007F4BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DF86CC2E823CD1007F4BD9 /* Assets.xcassets */; };
 		09DF86EE2E823CE2007F4BD9 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E82E823CE2007F4BD9 /* Workout.swift */; };
@@ -135,6 +135,7 @@
 		0914AEFC2E82393600620D65 /* OfflineWorkoutWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineWorkoutWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0914AF102E82393700620D65 /* OfflineWorkoutWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OfflineWorkoutWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0914AF1A2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OfflineWorkoutWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AA22222EBC260000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		09C9B5342E823764009D6949 /* OfflineWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C9B5452E823767009D6949 /* OfflineWorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfflineWorkoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C9B54F2E823767009D6949 /* OfflineWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfflineWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +148,6 @@
 		09DF86C82E823CD1007F4BD9 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		09DF86C92E823CD1007F4BD9 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
 		09DF86CA2E823CD1007F4BD9 /* WorkoutListForDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListForDayView.swift; sourceTree = "<group>"; };
-		09AA22222EBC260000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		09DF86CC2E823CD1007F4BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09DF86CE2E823CD1007F4BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09DF86CF2E823CD1007F4BD9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -755,9 +755,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OfflineWorkoutWatch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Tracker;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your workout data to track, pause, and save your offline sessions.";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes workout data to Apple Health to keep your fitness data in sync.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "OfflineWorkout integrates with Apple Health to read your workout history and provide a unified view of your fitness activity. Your workout data remains private and secure on your device.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "OfflineWorkout saves your completed workouts to Apple Health so you can track your fitness progress across all your health apps. This includes workout sessions, exercise metrics, reps, sets, weight, duration, distance, and step counts.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				"INFOPLIST_KEY_WKCompanionAppBundleIdentifier[sdk=*]" = com.daneweickert.OfflineWorkout;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -776,7 +777,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
@@ -794,9 +795,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OfflineWorkoutWatch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Tracker;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your workout data to track, pause, and save your offline sessions.";
-				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app writes workout data to Apple Health to keep your fitness data in sync.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "OfflineWorkout integrates with Apple Health to read your workout history and provide a unified view of your fitness activity. Your workout data remains private and secure on your device.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "OfflineWorkout saves your completed workouts to Apple Health so you can track your fitness progress across all your health apps. This includes workout sessions, exercise metrics, reps, sets, weight, duration, distance, and step counts.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				"INFOPLIST_KEY_WKCompanionAppBundleIdentifier[sdk=*]" = com.daneweickert.OfflineWorkout;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -815,7 +817,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
