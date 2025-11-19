@@ -10,10 +10,7 @@ struct EndWorkoutView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 20) {
-                // Workout Summary Icon
-                Image(systemName: "checkmark.circle.fill")
-                    .font(.system(size: 50))
-                    .foregroundColor(.green)
+
                 
                 // Workout Summary
                 if let workout = viewModel.currentWorkout {
