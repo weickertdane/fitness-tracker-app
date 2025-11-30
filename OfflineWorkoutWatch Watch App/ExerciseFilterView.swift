@@ -5,7 +5,6 @@ import SwiftUI
  */
 struct ExerciseFilterView: View {
     @State private var showingGoalResults: Goal?
-    @State private var showingBodyPartResults: BodyPart?
     
     var body: some View {
         ScrollView {
@@ -46,46 +45,13 @@ struct ExerciseFilterView: View {
                     }
                 }
                 
-                // Body Part Filter Section
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("By Muscle Group")
-                        .font(.headline)
-                        .fontWeight(.semibold)
-                    
-                    VStack(spacing: 8) {
-                        ForEach(BodyPart.allCases.sorted { $0.rawValue < $1.rawValue }, id: \.self) { bodyPart in
-                            Button(action: {
-                                showingBodyPartResults = bodyPart
-                            }) {
-                                HStack {
-                                    Text(bodyPart.rawValue.capitalized)
-                                        .font(.body)
-                                        .fontWeight(.medium)
-                                    
-                                    Spacer()
-                                    
-                                    Image(systemName: "chevron.right")
-                                        .font(.caption)
-                                        .foregroundColor(.secondary)
-                                }
-                                .padding()
-                                .background(Color.blue.opacity(0.1))
-                                .clipShape(RoundedRectangle(cornerRadius: 12))
-                            }
-                            .buttonStyle(PlainButtonStyle())
-                        }
-                    }
-                }
             }
             .padding()
         }
         .navigationTitle("Filter")
         .navigationBarTitleDisplayMode(.inline)
         .navigationDestination(item: $showingGoalResults) { goal in
-            FilteredExerciseListView(filterType: .goal(goal))
-        }
-        .navigationDestination(item: $showingBodyPartResults) { bodyPart in
-            FilteredExerciseListView(filterType: .bodyPart(bodyPart))
+            MuscleGroupFilterView(goal: goal)
         }
     }
     
@@ -95,8 +61,6 @@ struct ExerciseFilterView: View {
         switch goal {
         case .strength:
             return "bolt.fill"
-        case .hypertrophy:
-            return "arrow.up.circle.fill"
         case .rehab:
             return "heart.fill"
         case .cardio:
@@ -108,8 +72,6 @@ struct ExerciseFilterView: View {
         switch goal {
         case .strength:
             return .red
-        case .hypertrophy:
-            return .green
         case .rehab:
             return .purple
         case .cardio:

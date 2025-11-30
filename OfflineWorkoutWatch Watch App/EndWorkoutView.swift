@@ -50,23 +50,9 @@ struct EndWorkoutView: View {
                         .foregroundColor(.white)
                         .clipShape(RoundedRectangle(cornerRadius: 25))
                     }
-                    
-                    // Continue Button
-                    Button(action: {
-                        dismiss()
-                    }) {
-                        Text("Continue Workout")
-                            .fontWeight(.medium)
-                            .frame(maxWidth: .infinity)
-                            .padding()
-                            .background(Color.gray.opacity(0.3))
-                            .foregroundColor(.primary)
-                            .clipShape(RoundedRectangle(cornerRadius: 25))
-                    }
                 }
             }
             .padding()
-            .navigationTitle("Finish")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {

@@ -6,6 +6,5 @@ import Foundation
 enum Goal: String, Codable, CaseIterable, Sendable {
     case rehab = "rehab"
     case strength = "strength"
-    case hypertrophy = "hypertrophy"
     case cardio = "cardio"
 }

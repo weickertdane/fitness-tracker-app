@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0907C5D12E9CC1B400220B7B /* OfflineWorkoutWatch Watch App.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */; };
 		0963A51D2EA5842900547D18 /* OfflineWorkoutWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		09AA11112EBC260000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AA22222EBC260000000001 /* SettingsView.swift */; };
 		09D1527E2EBC250A007959A0 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E12E823CE2007F4BD9 /* HealthKitManager.swift */; };
@@ -34,16 +33,11 @@
 		09DF86F52E823CE2007F4BD9 /* ExerciseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E52E823CE2007F4BD9 /* ExerciseSet.swift */; };
 		09DF86F62E823CE2007F4BD9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86EB2E823CE2007F4BD9 /* Persistence.swift */; };
 		09DF86F72E823CE2007F4BD9 /* BodyPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF86E32E823CE2007F4BD9 /* BodyPart.swift */; };
+		09EEFE082ED93DCA00D230A7 /* TempWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 09EEFDE82ED93DC900D230A7 /* TempWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		09EEFE122EDB954900D230A7 /* OfflineWorkoutWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0907C57A2E9CB78600220B7B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0914AF002E82393600620D65;
-			remoteInfo = "OfflineWorkoutWatch Watch App";
-		};
 		0914AF032E82393600620D65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
@@ -65,20 +59,6 @@
 			remoteGlobalIDString = 0914AF002E82393600620D65;
 			remoteInfo = "OfflineWorkoutWatch Watch App";
 		};
-		0963A51E2EA5842900547D18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0914AF002E82393600620D65;
-			remoteInfo = "OfflineWorkoutWatch Watch App";
-		};
-		0963A5212EA5849400547D18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0914AF002E82393600620D65;
-			remoteInfo = "OfflineWorkoutWatch Watch App";
-		};
 		09C9B5462E823767009D6949 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
@@ -93,19 +73,30 @@
 			remoteGlobalIDString = 09C9B5332E823764009D6949;
 			remoteInfo = OfflineWorkout;
 		};
+		09EEFDF52ED93DCA00D230A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09EEFDE72ED93DC900D230A7;
+			remoteInfo = "TempWatchApp Watch App";
+		};
+		09EEFDFF2ED93DCA00D230A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09EEFDE72ED93DC900D230A7;
+			remoteInfo = "TempWatchApp Watch App";
+		};
+		09EEFE062ED93DCA00D230A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C9B52C2E823764009D6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09EEFDE72ED93DC900D230A7;
+			remoteInfo = "TempWatchApp Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0907C56F2E9C1B3200220B7B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = Watch;
-			dstSubfolderSpec = 16;
-			files = (
-				0907C5D12E9CC1B400220B7B /* OfflineWorkoutWatch Watch App.app in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0914AF252E82393700620D65 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,11 +109,33 @@
 		};
 		0963A5202EA5842900547D18 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = Watch;
+			dstSubfolderSpec = 16;
+			files = (
+				0963A51D2EA5842900547D18 /* OfflineWorkoutWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		09EEFDD92ED9380600D230A7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Watch;
+			dstSubfolderSpec = 16;
+			files = (
+				09EEFE082ED93DCA00D230A7 /* TempWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEFE152EDB954900D230A7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				0963A51D2EA5842900547D18 /* OfflineWorkoutWatch Watch App.app in Embed Watch Content */,
+				09EEFE122EDB954900D230A7 /* OfflineWorkoutWatch Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +175,9 @@
 		09DF86E82E823CE2007F4BD9 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		09DF86EA2E823CE2007F4BD9 /* CloudKitSyncStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSyncStatus.swift; sourceTree = "<group>"; };
 		09DF86EB2E823CE2007F4BD9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		09EEFDE82ED93DC900D230A7 /* TempWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TempWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EEFDF42ED93DCA00D230A7 /* TempWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TempWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EEFDFE2ED93DCA00D230A7 /* TempWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TempWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F556ED2E823D8500020C04 /* OfflineWorkout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OfflineWorkout.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +195,21 @@
 		0914AF1D2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "OfflineWorkoutWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		09EEFDE92ED93DC900D230A7 /* TempWatchApp Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TempWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		09EEFDF72ED93DCA00D230A7 /* TempWatchApp Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TempWatchApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		09EEFE012ED93DCA00D230A7 /* TempWatchApp Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TempWatchApp Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -226,6 +257,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09EEFDE52ED93DC900D230A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEFDF12ED93DCA00D230A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEFDFB2ED93DCA00D230A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -245,6 +297,9 @@
 				0914AF052E82393600620D65 /* OfflineWorkoutWatch Watch App */,
 				0914AF132E82393700620D65 /* OfflineWorkoutWatch Watch AppTests */,
 				0914AF1D2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests */,
+				09EEFDE92ED93DC900D230A7 /* TempWatchApp Watch App */,
+				09EEFDF72ED93DCA00D230A7 /* TempWatchApp Watch AppTests */,
+				09EEFE012ED93DCA00D230A7 /* TempWatchApp Watch AppUITests */,
 				09C9B5352E823764009D6949 /* Products */,
 				09DF86ED2E823CE2007F4BD9 /* Shared */,
 				0963A51C2EA5842900547D18 /* Frameworks */,
@@ -261,6 +316,9 @@
 				0914AF102E82393700620D65 /* OfflineWorkoutWatch Watch AppTests.xctest */,
 				0914AF1A2E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests.xctest */,
 				0907C5862E9CC19100220B7B /* OfflineWorkoutWatch Watch App.app */,
+				09EEFDE82ED93DC900D230A7 /* TempWatchApp Watch App.app */,
+				09EEFDF42ED93DCA00D230A7 /* TempWatchApp Watch AppTests.xctest */,
+				09EEFDFE2ED93DCA00D230A7 /* TempWatchApp Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -456,15 +514,14 @@
 				09C9B5302E823764009D6949 /* Sources */,
 				09C9B5312E823764009D6949 /* Frameworks */,
 				09C9B5322E823764009D6949 /* Resources */,
-				0907C56F2E9C1B3200220B7B /* CopyFiles */,
 				0963A5202EA5842900547D18 /* Embed Watch Content */,
+				09EEFDD92ED9380600D230A7 /* Embed Watch Content */,
+				09EEFE152EDB954900D230A7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0907C57B2E9CB78600220B7B /* PBXTargetDependency */,
-				0963A51F2EA5842900547D18 /* PBXTargetDependency */,
-				0963A5222EA5849400547D18 /* PBXTargetDependency */,
+				09EEFE072ED93DCA00D230A7 /* PBXTargetDependency */,
 			);
 			name = OfflineWorkout;
 			packageProductDependencies = (
@@ -513,6 +570,74 @@
 			productReference = 09C9B54F2E823767009D6949 /* OfflineWorkoutUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		09EEFDE72ED93DC900D230A7 /* TempWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EEFE092ED93DCA00D230A7 /* Build configuration list for PBXNativeTarget "TempWatchApp Watch App" */;
+			buildPhases = (
+				09EEFDE42ED93DC900D230A7 /* Sources */,
+				09EEFDE52ED93DC900D230A7 /* Frameworks */,
+				09EEFDE62ED93DC900D230A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				09EEFDE92ED93DC900D230A7 /* TempWatchApp Watch App */,
+			);
+			name = "TempWatchApp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TempWatchApp Watch App";
+			productReference = 09EEFDE82ED93DC900D230A7 /* TempWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09EEFDF32ED93DCA00D230A7 /* TempWatchApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EEFE0C2ED93DCA00D230A7 /* Build configuration list for PBXNativeTarget "TempWatchApp Watch AppTests" */;
+			buildPhases = (
+				09EEFDF02ED93DCA00D230A7 /* Sources */,
+				09EEFDF12ED93DCA00D230A7 /* Frameworks */,
+				09EEFDF22ED93DCA00D230A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09EEFDF62ED93DCA00D230A7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				09EEFDF72ED93DCA00D230A7 /* TempWatchApp Watch AppTests */,
+			);
+			name = "TempWatchApp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "TempWatchApp Watch AppTests";
+			productReference = 09EEFDF42ED93DCA00D230A7 /* TempWatchApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09EEFDFD2ED93DCA00D230A7 /* TempWatchApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EEFE0F2ED93DCA00D230A7 /* Build configuration list for PBXNativeTarget "TempWatchApp Watch AppUITests" */;
+			buildPhases = (
+				09EEFDFA2ED93DCA00D230A7 /* Sources */,
+				09EEFDFB2ED93DCA00D230A7 /* Frameworks */,
+				09EEFDFC2ED93DCA00D230A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09EEFE002ED93DCA00D230A7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				09EEFE012ED93DCA00D230A7 /* TempWatchApp Watch AppUITests */,
+			);
+			name = "TempWatchApp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "TempWatchApp Watch AppUITests";
+			productReference = 09EEFDFE2ED93DCA00D230A7 /* TempWatchApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -548,6 +673,17 @@
 						CreatedOnToolsVersion = 26.0;
 						TestTargetID = 09C9B5332E823764009D6949;
 					};
+					09EEFDE72ED93DC900D230A7 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					09EEFDF32ED93DCA00D230A7 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 09EEFDE72ED93DC900D230A7;
+					};
+					09EEFDFD2ED93DCA00D230A7 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 09EEFDE72ED93DC900D230A7;
+					};
 				};
 			};
 			buildConfigurationList = 09C9B52F2E823764009D6949 /* Build configuration list for PBXProject "OfflineWorkout" */;
@@ -571,6 +707,9 @@
 				0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */,
 				0914AF0F2E82393700620D65 /* OfflineWorkoutWatch Watch AppTests */,
 				0914AF192E82393700620D65 /* OfflineWorkoutWatch Watch AppUITests */,
+				09EEFDE72ED93DC900D230A7 /* TempWatchApp Watch App */,
+				09EEFDF32ED93DCA00D230A7 /* TempWatchApp Watch AppTests */,
+				09EEFDFD2ED93DCA00D230A7 /* TempWatchApp Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -620,6 +759,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		09C9B54D2E823767009D6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEFDE62ED93DC900D230A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEFDF22ED93DCA00D230A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEFDFC2ED93DCA00D230A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -695,14 +855,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		09EEFDE42ED93DC900D230A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEFDF02ED93DCA00D230A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09EEFDFA2ED93DCA00D230A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0907C57B2E9CB78600220B7B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
-			targetProxy = 0907C57A2E9CB78600220B7B /* PBXContainerItemProxy */;
-		};
 		0914AF042E82393600620D65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
@@ -718,16 +894,6 @@
 			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
 			targetProxy = 0914AF1B2E82393700620D65 /* PBXContainerItemProxy */;
 		};
-		0963A51F2EA5842900547D18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
-			targetProxy = 0963A51E2EA5842900547D18 /* PBXContainerItemProxy */;
-		};
-		0963A5222EA5849400547D18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0914AF002E82393600620D65 /* OfflineWorkoutWatch Watch App */;
-			targetProxy = 0963A5212EA5849400547D18 /* PBXContainerItemProxy */;
-		};
 		09C9B5472E823767009D6949 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 09C9B5332E823764009D6949 /* OfflineWorkout */;
@@ -737,6 +903,21 @@
 			isa = PBXTargetDependency;
 			target = 09C9B5332E823764009D6949 /* OfflineWorkout */;
 			targetProxy = 09C9B5502E823767009D6949 /* PBXContainerItemProxy */;
+		};
+		09EEFDF62ED93DCA00D230A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09EEFDE72ED93DC900D230A7 /* TempWatchApp Watch App */;
+			targetProxy = 09EEFDF52ED93DCA00D230A7 /* PBXContainerItemProxy */;
+		};
+		09EEFE002ED93DCA00D230A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09EEFDE72ED93DC900D230A7 /* TempWatchApp Watch App */;
+			targetProxy = 09EEFDFF2ED93DCA00D230A7 /* PBXContainerItemProxy */;
+		};
+		09EEFE072ED93DCA00D230A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09EEFDE72ED93DC900D230A7 /* TempWatchApp Watch App */;
+			targetProxy = 09EEFE062ED93DCA00D230A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -946,7 +1127,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OfflineWorkout.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 37MG5GS6FB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -965,7 +1146,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -985,7 +1166,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OfflineWorkout.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 37MG5GS6FB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1004,7 +1185,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -1216,6 +1397,162 @@
 			};
 			name = Release;
 		};
+		09EEFE0A2ED93DCA00D230A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TempWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.daneweickert.OfflineWorkout;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkout.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		09EEFE0B2ED93DCA00D230A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TempWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.daneweickert.OfflineWorkout;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daneweickert.OfflineWorkout.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		09EEFE0D2ED93DCA00D230A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daneweickert.TempWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TempWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		09EEFE0E2ED93DCA00D230A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daneweickert.TempWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TempWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		09EEFE102ED93DCA00D230A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daneweickert.TempWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TempWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		09EEFE112ED93DCA00D230A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37MG5GS6FB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daneweickert.TempWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TempWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1287,6 +1624,33 @@
 			buildConfigurations = (
 				09C9B5612E823767009D6949 /* Debug */,
 				09C9B5622E823767009D6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09EEFE092ED93DCA00D230A7 /* Build configuration list for PBXNativeTarget "TempWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EEFE0A2ED93DCA00D230A7 /* Debug */,
+				09EEFE0B2ED93DCA00D230A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09EEFE0C2ED93DCA00D230A7 /* Build configuration list for PBXNativeTarget "TempWatchApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EEFE0D2ED93DCA00D230A7 /* Debug */,
+				09EEFE0E2ED93DCA00D230A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09EEFE0F2ED93DCA00D230A7 /* Build configuration list for PBXNativeTarget "TempWatchApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EEFE102ED93DCA00D230A7 /* Debug */,
+				09EEFE112ED93DCA00D230A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

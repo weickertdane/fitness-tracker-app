@@ -127,7 +127,7 @@ struct ExerciseTemplateFormView: View {
     }
     
     private var goalOrder: [Goal] {
-        [.rehab, .strength, .hypertrophy, .cardio]
+        [.rehab, .strength, .cardio]
     }
     
     // MARK: - Body Part Step
@@ -310,8 +310,6 @@ struct ExerciseTemplateFormView: View {
         switch goal {
         case .strength:
             return "bolt.fill"
-        case .hypertrophy:
-            return "arrow.up.circle.fill"
         case .rehab:
             return "heart.fill"
         case .cardio:

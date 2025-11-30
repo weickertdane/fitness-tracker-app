@@ -209,7 +209,7 @@ struct GoalPickerView: View {
     @Binding var selectedGoal: Goal
     
     private var goalOrder: [Goal] {
-        [.rehab, .strength, .hypertrophy, .cardio]
+        [.rehab, .strength, .cardio]
     }
     
     var body: some View {

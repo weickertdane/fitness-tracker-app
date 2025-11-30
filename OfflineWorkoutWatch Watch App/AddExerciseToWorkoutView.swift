@@ -29,14 +29,16 @@ struct ExerciseSelectionRow: View {
                         .lineLimit(2)
                         .minimumScaleFactor(0.85)
                     
-                    HStack(spacing: 4) {
-                        Text("•")
-                            .font(.caption2)
-                            .foregroundColor(.secondary)
-                        Text(infoText)
-                            .font(.caption2)
-                            .foregroundColor(.secondary)
-                            .lineLimit(1)
+                    if !infoText.isEmpty {
+                        HStack(spacing: 4) {
+                            Text("•")
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                            Text(infoText)
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                                .lineLimit(1)
+                        }
                     }
                 }
                 
@@ -62,6 +64,8 @@ struct ExerciseSelectionRow: View {
         case .bodyPart:
             // When filtering by body part, only show goal
             return exercise.goal?.rawValue.capitalized ?? "Unknown"
+        case .combined:
+            return ""
         case .none:
             // When not filtering, show both
             let bodyPart = exercise.bodyPart?.rawValue.capitalized ?? "Unknown"

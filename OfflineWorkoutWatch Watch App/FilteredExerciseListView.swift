@@ -15,6 +15,8 @@ struct FilteredExerciseListView: View {
             return viewModel.availableExercises.filter { $0.goal == goal }
         case .bodyPart(let bodyPart):
             return viewModel.availableExercises.filter { $0.bodyPart == bodyPart }
+        case .combined(let goal, let bodyPart):
+            return viewModel.availableExercises.filter { $0.goal == goal && $0.bodyPart == bodyPart }
         }
     }
     
@@ -23,6 +25,8 @@ struct FilteredExerciseListView: View {
         case .goal(let goal):
             return goal.rawValue.capitalized
         case .bodyPart(let bodyPart):
+            return bodyPart.rawValue.capitalized
+        case .combined(_, let bodyPart):
             return bodyPart.rawValue.capitalized
         }
     }
@@ -92,14 +96,12 @@ struct FilteredExerciseListView: View {
             switch goal {
             case .strength:
                 return "bolt.fill"
-            case .hypertrophy:
-                return "arrow.up.circle.fill"
             case .rehab:
                 return "heart.fill"
             case .cardio:
                 return "figure.run"
             }
-        case .bodyPart:
+        case .bodyPart, .combined:
             return "figure.arms.open"
         }
     }
@@ -122,6 +124,7 @@ struct FilteredExerciseListView: View {
 enum FilterType: Hashable {
     case goal(Goal)
     case bodyPart(BodyPart)
+    case combined(Goal, BodyPart)
 }
 
 #Preview {

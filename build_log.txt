@@ -1,0 +1,638 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme "OfflineWorkoutWatch Watch App" -destination "generic/platform=watchOS Simulator" clean build
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+** CLEAN SUCCEEDED **
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (2 targets)
+    Target 'OfflineWorkoutWatch' in project 'OfflineWorkout'
+        ➜ Explicit dependency on target 'OfflineWorkoutWatch Watch App' in project 'OfflineWorkout'
+    Target 'OfflineWorkoutWatch Watch App' in project 'OfflineWorkout' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Library/Application Support/MessagesApplicationStub/MessagesApplicationStub.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: f0b1ea109ce899bf65caf6d535afa2b6
+Build description path: /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/XCBuildData/f0b1ea109ce899bf65caf6d535afa2b6.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk /Users/daneweickert/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/watchsimulator26.0-23R351-d6f9d956e8bb931a4d3c0d15364d9e81.sdkstatcache
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk -o /Users/daneweickert/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/watchsimulator26.0-23R351-d6f9d956e8bb931a4d3c0d15364d9e81.sdkstatcache
+
+CreateBuildDirectory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    builtin-create-build-directory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    builtin-create-build-directory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products
+
+CreateBuildDirectory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    builtin-create-build-directory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    builtin-create-build-directory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    builtin-create-build-directory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator
+
+CreateBuildDirectory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-iphonesimulator
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    builtin-create-build-directory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    builtin-create-build-directory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+CreateBuildDirectory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-watchsimulator
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    builtin-create-build-directory /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-watchsimulator
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkout-f52cc53118151fa5e4095a09369cdcf7-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkout-f52cc53118151fa5e4095a09369cdcf7-VFS-iphonesimulator/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkout-f52cc53118151fa5e4095a09369cdcf7-VFS-watchsimulator/all-product-headers.yaml
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkout.xcodeproj
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkout-f52cc53118151fa5e4095a09369cdcf7-VFS-watchsimulator/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/empty-OfflineWorkoutWatch.plist (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/empty-OfflineWorkoutWatch.plist
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch.DependencyStaticMetadataFileList (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch.DependencyMetadataFileList (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-project-headers.hmap (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-project-headers.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/ProductTypeInfoPlistAdditions.plist (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/ProductTypeInfoPlistAdditions.plist
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-own-target-headers.hmap (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-all-target-headers.hmap (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-generated-files.hmap (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-generated-files.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch.hmap (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-all-non-framework-target-headers.hmap (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/OfflineWorkoutWatch-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.hmap (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/DerivedSources/Entitlements-Simulated.plist (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-iphonesimulator/OfflineWorkoutWatch.build/DerivedSources/Entitlements-Simulated.plist
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-DebugDylibPath-normal-arm64.txt (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.DependencyMetadataFileList (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.DependencyStaticMetadataFileList (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-own-target-headers.hmap (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-project-headers.hmap (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-project-headers.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-generated-files.hmap (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-generated-files.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-all-non-framework-target-headers.hmap (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-all-target-headers.hmap (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-DebugDylibPath-normal-x86_64.txt (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-DebugDylibInstallName-normal-x86_64.txt (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-DebugDylibInstallName-normal-arm64.txt (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App_const_extract_protocols.json (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App.SwiftFileList (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App.SwiftFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App.SwiftConstValuesFileList (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App-OutputFileMap.json (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App.LinkFileList (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App.LinkFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App.SwiftConstValuesFileList (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App.LinkFileList (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App.LinkFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App_const_extract_protocols.json (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App.SwiftFileList (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App.SwiftFileList
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App-OutputFileMap.json (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources/Entitlements-Simulated.plist (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    write-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources/Entitlements-Simulated.plist
+
+MkDir /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-iphonesimulator/OfflineWorkoutWatch.app (in target 'OfflineWorkoutWatch' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /bin/mkdir -p /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-iphonesimulator/OfflineWorkoutWatch.app
+
+MkDir /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.app (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /bin/mkdir -p /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.app
+
+ProcessProductPackaging /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/OfflineWorkoutWatch\ Watch\ App.entitlements /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app.xcent (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+    Entitlements:
+    
+    {
+}
+    
+    builtin-productPackagingUtility /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/OfflineWorkoutWatch\ Watch\ App.entitlements -entitlements -format xml -o /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app.xcent
+
+ProcessProductPackaging /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/OfflineWorkoutWatch\ Watch\ App.entitlements /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "37MG5GS6FB.com.daneweickert.OfflineWorkout.watchapp";
+    "aps-environment" = development;
+    "com.apple.developer.healthkit" = 1;
+    "com.apple.developer.icloud-container-identifiers" =     (
+        "iCloud.com.daneweickert.OfflineWorkout"
+    );
+    "com.apple.developer.icloud-services" =     (
+        CloudKit
+    );
+    "com.apple.security.application-groups" =     (
+    );
+}
+    
+    builtin-productPackagingUtility /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/OfflineWorkoutWatch\ Watch\ App.entitlements -entitlements -format xml -o /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent
+
+ProcessProductPackagingDER /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent.der (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /usr/bin/derq query -f xml -i /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent -o /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent.der --raw
+
+ProcessProductPackagingDER /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app.xcent /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app.xcent.der (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /usr/bin/derq query -f xml -i /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app.xcent -o /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app.xcent.der --raw
+
+GenerateAssetSymbols /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Assets.xcassets (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Assets.xcassets --compile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/assetcatalog_dependencies --output-partial-info-plist /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device watch --minimum-deployment-target 10.6 --platform watchsimulator --bundle-identifier com.daneweickert.OfflineWorkout.watchapp --generate-swift-asset-symbols /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch Watch App.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch Watch App.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch Watch App.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+MkDir /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/assetcatalog_output/unthinned (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /bin/mkdir -p /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/assetcatalog_output/unthinned
+
+Ld /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-watchos10.6-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk -O0 -L/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -F/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -install_name @rpath/OfflineWorkoutWatch\ Watch\ App.debug.dylib -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+Ld /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-watchos10.6-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk -O0 -L/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -F/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -install_name @rpath/OfflineWorkoutWatch\ Watch\ App.debug.dylib -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -Xlinker -dependency_info -Xlinker /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App_dependency_info.dat -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App.app-Simulated.xcent.der -Xlinker -no_adhoc_codesign -o /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/Binary/__preview.dylib
+
+MkDir /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/assetcatalog_output/thinned (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /bin/mkdir -p /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/assetcatalog_output/thinned
+
+CompileAssetCatalogVariant thinned /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.app /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Assets.xcassets (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Assets.xcassets --compile /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device watch --minimum-deployment-target 10.6 --platform watchsimulator
+
+CreateUniversalBinary /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.app/__preview.dylib normal arm64\ x86_64 (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/Binary/__preview.dylib /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.app/__preview.dylib
+
+SwiftDriver OfflineWorkoutWatch\ Watch\ App normal arm64 com.apple.xcode.tools.swift.compiler (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name OfflineWorkoutWatch_Watch_App -Onone -enforce-exclusivity\=checked @/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk -target arm64-apple-watchos10.6-simulator -g -module-cache-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -F /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -emit-localized-strings -emit-localized-strings-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64 -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/daneweickert/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/watchsimulator26.0-23R351-d6f9d956e8bb931a4d3c0d15364d9e81.sdkstatcache -output-file-map /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch_Watch_App.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App_const_extract_protocols.json -Xcc -iquote -Xcc /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-generated-files.hmap -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-own-target-headers.hmap -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-all-target-headers.hmap -Xcc -iquote -Xcc /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-project-headers.hmap -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator/include -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources-normal/arm64 -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources/arm64 -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch_Watch_App-Swift.h -working-directory /Users/daneweickert/code/personal/fitness/OfflineWorkout -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver OfflineWorkoutWatch\ Watch\ App normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name OfflineWorkoutWatch_Watch_App -Onone -enforce-exclusivity\=checked @/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App.SwiftFileList -DDEBUG -default-isolation\=MainActor -enable-bare-slash-regex -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk -target x86_64-apple-watchos10.6-simulator -g -module-cache-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -F /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -emit-localized-strings -emit-localized-strings-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64 -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/daneweickert/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/watchsimulator26.0-23R351-d6f9d956e8bb931a4d3c0d15364d9e81.sdkstatcache -output-file-map /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch_Watch_App.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch\ Watch\ App_const_extract_protocols.json -Xcc -iquote -Xcc /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-generated-files.hmap -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-own-target-headers.hmap -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-all-target-headers.hmap -Xcc -iquote -Xcc /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-project-headers.hmap -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator/include -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources-normal/x86_64 -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources/x86_64 -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/x86_64/OfflineWorkoutWatch_Watch_App-Swift.h -working-directory /Users/daneweickert/code/personal/fitness/OfflineWorkout -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ BodyPart.swift,\ ContentView.swift,\ CreateExerciseWorkflowView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/BodyPart.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ContentView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/CreateExerciseWorkflowView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/BodyPart.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ContentView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/CreateExerciseWorkflowView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 Compiling\ WatchSyncCenter.swift,\ ActiveWorkoutView.swift,\ AddExerciseToWorkoutView.swift,\ AddSetFormView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/Shared/Sync/WatchSyncCenter.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ActiveWorkoutView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/AddExerciseToWorkoutView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/AddSetFormView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/Shared/Sync/WatchSyncCenter.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ActiveWorkoutView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/AddExerciseToWorkoutView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/AddSetFormView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 Compiling\ DistanceUnit.swift,\ EndWorkoutView.swift,\ Exercise.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/DistanceUnit.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/EndWorkoutView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Exercise.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/DistanceUnit.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/EndWorkoutView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Exercise.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 Compiling\ ExerciseLibraryView.swift,\ ExerciseSearchView.swift,\ ExerciseSelectionMethodView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseLibraryView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseSearchView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseSelectionMethodView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseLibraryView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseSearchView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseSelectionMethodView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 Compiling\ MuscleGroupFilterView.swift,\ NumberPadView.swift,\ OfflineWorkoutWatchApp.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/MuscleGroupFilterView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/NumberPadView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/OfflineWorkoutWatchApp.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/MuscleGroupFilterView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/NumberPadView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/OfflineWorkoutWatchApp.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 Compiling\ Persistence.swift,\ PreviewHelpers.swift,\ SettingsView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Persistence.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/PreviewHelpers.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/SettingsView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Persistence.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/PreviewHelpers.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/SettingsView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 Compiling\ ExerciseDetailView.swift,\ ExerciseFilterView.swift,\ ExerciseFormView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseDetailView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseFilterView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseFormView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseDetailView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseFilterView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseFormView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 Compiling\ FilteredExerciseListView.swift,\ Goal.swift,\ MetricType.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/FilteredExerciseListView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Goal.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/MetricType.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/FilteredExerciseListView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/FilteredExerciseListView.swift:133:76: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+            .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                           ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ActiveWorkoutView.swift:334:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/AddExerciseToWorkoutView.swift:76:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/AddSetFormView.swift:598:68: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+    .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                   ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/CreateExerciseWorkflowView.swift:51:76: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+            .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                           ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/EndWorkoutView.swift:115:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseDetailView.swift:323:5: warning: '@State' used inline will not work unless tagged with '@Previewable' (from macro 'Preview')
+    @State var sampleExercise = WorkoutExercise(name: "Push-ups")
+    ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseDetailView.swift:323:5: note: Add '@Previewable'
+    @State var sampleExercise = WorkoutExercise(name: "Push-ups")
+    ^~~~~~
+    @Previewable @State
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseFormView.swift:309:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseLibraryView.swift:132:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseSearchView.swift:97:76: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+            .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                           ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseTemplateFormView.swift:346:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExistingExerciseOptionsView.swift:92:76: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+            .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                           ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/NumberPadView.swift:163:5: warning: '@State' used inline will not work unless tagged with '@Previewable' (from macro 'Preview')
+    @State var testValue = ""
+    ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/NumberPadView.swift:163:5: note: Add '@Previewable'
+    @State var testValue = ""
+    ^~~~~~
+    @Previewable @State
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/PreviewHelpers.swift:102:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/StartWorkoutView.swift:127:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WatchAppRootView.swift:49:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WeightNumberPadView.swift:183:5: warning: '@State' used inline will not work unless tagged with '@Previewable' (from macro 'Preview')
+    @State var testValue = ""
+    ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WeightNumberPadView.swift:183:5: note: Add '@Previewable'
+    @State var testValue = ""
+    ^~~~~~
+    @Previewable @State
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WeightNumberPadView.swift:184:5: warning: '@State' used inline will not work unless tagged with '@Previewable' (from macro 'Preview')
+    @State var testBodyweight = false
+    ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WeightNumberPadView.swift:184:5: note: Add '@Previewable'
+    @State var testBodyweight = false
+    ^~~~~~
+    @Previewable @State
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Goal.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/MetricType.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 Compiling\ ExerciseSet.swift,\ ExerciseTemplateFormView.swift,\ ExistingExerciseOptionsView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseSet.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseTemplateFormView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExistingExerciseOptionsView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseSet.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseTemplateFormView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExistingExerciseOptionsView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ OfflineWorkoutWatch_Watch_App (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/daneweickert/code/personal/fitness/OfflineWorkout/Shared/Sync/WatchSyncCenter.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ActiveWorkoutView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/AddExerciseToWorkoutView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/AddSetFormView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/BodyPart.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ContentView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/CreateExerciseWorkflowView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/DistanceUnit.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/EndWorkoutView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Exercise.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseDetailView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseFilterView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseFormView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseLibraryView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseSearchView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseSelectionMethodView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseSet.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExerciseTemplateFormView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/ExistingExerciseOptionsView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/FilteredExerciseListView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Goal.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/MetricType.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/MuscleGroupFilterView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/NumberPadView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/OfflineWorkoutWatchApp.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Persistence.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/PreviewHelpers.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/SettingsView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/StartWorkoutView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Theme.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/WatchAppRootView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/WatchWorkoutViewModel.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/WeightNumberPadView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Workout.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/WorkoutHistoryView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/Shared/Health/HealthKitManager.swift /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources/GeneratedAssetSymbols.swift -target arm64-apple-watchos10.6-simulator -module-can-import-version DeveloperToolsSupport 23.0.4 23.0.4 -module-can-import-version SwiftUI 7.0.84.1 7.0.84 -module-can-import-version UIKit 9088.1.302 9088.1.255 -module-can-import-version WatchConnectivity 222.0.0 222.0.0 -disable-cross-import-overlay-search -swift-module-cross-import SwiftData /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk/System/Library/Frameworks/SwiftData.framework/Modules/SwiftData.swiftcrossimport/CoreData.swiftoverlay -swift-module-cross-import SwiftData /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk/System/Library/Frameworks/SwiftData.framework/Modules/SwiftData.swiftcrossimport/SwiftUI.swiftoverlay -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftDataMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftDataMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch_Watch_App-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator26.0.sdk -I /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -F /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -profile-generate -profile-coverage-mapping -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App_const_extract_protocols.json -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -default-isolation\=MainActor -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/daneweickert/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/daneweickert/code/personal/fitness/OfflineWorkout -enable-anonymous-context-mangled-names -file-compilation-dir /Users/daneweickert/code/personal/fitness/OfflineWorkout -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/daneweickert/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/watchsimulator26.0-23R351-d6f9d956e8bb931a4d3c0d15364d9e81.sdkstatcache -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-generated-files.hmap -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-own-target-headers.hmap -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-all-target-headers.hmap -Xcc -iquote -Xcc /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/OfflineWorkoutWatch\ Watch\ App-project-headers.hmap -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Products/Debug-watchsimulator/include -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources-normal/arm64 -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources/arm64 -Xcc -I/Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/DerivedSources -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name OfflineWorkoutWatch_Watch_App -frontend-parseable-output -disable-clang-spi -target-sdk-version 26.0 -target-sdk-name watchsimulator26.0 -clang-target arm64-apple-watchos26.0-simulator -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -emit-module-doc-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch_Watch_App.swiftdoc -emit-module-source-info-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch_Watch_App.swiftsourceinfo -emit-objc-header-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch_Watch_App-Swift.h -serialize-diagnostics-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App-primary-emit-module.dia -emit-dependencies-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch\ Watch\ App-primary-emit-module.d -o /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch_Watch_App.swiftmodule -emit-abi-descriptor-path /Users/daneweickert/Library/Developer/Xcode/DerivedData/OfflineWorkout-fbedyxdohgaipdctvcpnxoaljaaq/Build/Intermediates.noindex/OfflineWorkout.build/Debug-watchsimulator/OfflineWorkoutWatch\ Watch\ App.build/Objects-normal/arm64/OfflineWorkoutWatch_Watch_App.abi.json
+
+EmitSwiftModule normal arm64 (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ActiveWorkoutView.swift:334:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/AddExerciseToWorkoutView.swift:76:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/AddSetFormView.swift:598:68: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+    .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                   ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/CreateExerciseWorkflowView.swift:51:76: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+            .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                           ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/EndWorkoutView.swift:115:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseDetailView.swift:323:5: warning: '@State' used inline will not work unless tagged with '@Previewable' (from macro 'Preview')
+    @State var sampleExercise = WorkoutExercise(name: "Push-ups")
+    ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseDetailView.swift:323:5: note: Add '@Previewable'
+    @State var sampleExercise = WorkoutExercise(name: "Push-ups")
+    ^~~~~~
+    @Previewable @State
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseFormView.swift:309:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseLibraryView.swift:132:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseSearchView.swift:97:76: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+            .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                           ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseTemplateFormView.swift:346:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExistingExerciseOptionsView.swift:92:76: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+            .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                           ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/FilteredExerciseListView.swift:133:76: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+            .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                           ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/NumberPadView.swift:163:5: warning: '@State' used inline will not work unless tagged with '@Previewable' (from macro 'Preview')
+    @State var testValue = ""
+    ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/NumberPadView.swift:163:5: note: Add '@Previewable'
+    @State var testValue = ""
+    ^~~~~~
+    @Previewable @State
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/PreviewHelpers.swift:102:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/StartWorkoutView.swift:127:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WatchAppRootView.swift:49:72: warning: previewContext is ignored in a #Preview macro. Use the macro initializer that matches the context of the desired environment; e.g. Widgets, Live Activities (from macro 'Preview')
+        .environment(WatchWorkoutViewModel(modelContext: PreviewHelper.previewContext))
+                                                                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WeightNumberPadView.swift:183:5: warning: '@State' used inline will not work unless tagged with '@Previewable' (from macro 'Preview')
+    @State var testValue = ""
+    ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WeightNumberPadView.swift:183:5: note: Add '@Previewable'
+    @State var testValue = ""
+    ^~~~~~
+    @Previewable @State
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WeightNumberPadView.swift:184:5: warning: '@State' used inline will not work unless tagged with '@Previewable' (from macro 'Preview')
+    @State var testBodyweight = false
+    ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/WeightNumberPadView.swift:184:5: note: Add '@Previewable'
+    @State var testBodyweight = false
+    ^~~~~~
+    @Previewable @State
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseFilterView.swift:8:24: error: invalid redeclaration of 'showingGoalResults'
+    @State private var showingGoalResults: Goal?
+                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseFilterView.swift:7:24: note: 'showingGoalResults' previously declared here
+    @State private var showingGoalResults: Goal?
+                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseFilterView.swift:7:24: note: 'showingGoalResults' previously declared here
+    @State private var showingGoalResults: Goal?
+                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseFilterView.swift:8:24: error: invalid redeclaration of synthesized property '$showingGoalResults'
+    @State private var showingGoalResults: Goal?
+                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseFilterView.swift:7:24: note: '$showingGoalResults' synthesized for property wrapper projected value
+    @State private var showingGoalResults: Goal?
+                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseFilterView.swift:8:24: error: invalid redeclaration of synthesized property '_showingGoalResults'
+    @State private var showingGoalResults: Goal?
+                       ^
+/Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch Watch App/ExerciseFilterView.swift:7:24: note: '_showingGoalResults' synthesized for property wrapper backing storage
+    @State private var showingGoalResults: Goal?
+                       ^
+
+SwiftCompile normal arm64 Compiling\ WatchWorkoutViewModel.swift,\ WeightNumberPadView.swift,\ Workout.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/WatchWorkoutViewModel.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/WeightNumberPadView.swift /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Workout.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/WatchWorkoutViewModel.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/WeightNumberPadView.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftCompile normal arm64 /Users/daneweickert/code/personal/fitness/OfflineWorkout/OfflineWorkoutWatch\ Watch\ App/Workout.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+    cd /Users/daneweickert/code/personal/fitness/OfflineWorkout
+    
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ OfflineWorkoutWatch_Watch_App (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+
+SwiftDriverJobDiscovery normal arm64 Compiling FilteredExerciseListView.swift, Goal.swift, MetricType.swift (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftEmitModule normal arm64 Emitting\ module\ for\ OfflineWorkoutWatch_Watch_App (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+	EmitSwiftModule normal arm64 (in target 'OfflineWorkoutWatch Watch App' from project 'OfflineWorkout')
+	Building project OfflineWorkout with scheme OfflineWorkoutWatch Watch App
+(3 failures)
