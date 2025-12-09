@@ -68,27 +68,27 @@ extension Exercise {
 // MARK: - Convenience Initializers
 extension Exercise {
     /**
-     * Creates a running exercise with duration and distance metrics.
+     * Creates a running exercise with duration, distance, and avg pace metrics.
      */
     static func createRunningExercise(name: String = "Run", difficulty: Int? = 2) -> Exercise {
         return Exercise(
             name: name,
             goal: Goal.cardio,
             bodyPart: BodyPart.other,
-            allowedMetrics: [MetricType.durationSeconds, MetricType.distanceMeters],
+            allowedMetrics: [MetricType.durationSeconds, MetricType.distanceMeters, MetricType.avgPace],
             difficulty: difficulty  // Default to "Easy" for running
         )
     }
     
     /**
-     * Creates a cardio exercise with steps and duration metrics.
+     * Creates a cardio exercise with steps, duration, and avg pace metrics.
      */
     static func createCardioExercise(name: String) -> Exercise {
         return Exercise(
             name: name,
             goal: Goal.cardio,
             bodyPart: BodyPart.other,
-            allowedMetrics: [MetricType.steps, MetricType.durationSeconds]
+            allowedMetrics: [MetricType.steps, MetricType.durationSeconds, MetricType.avgPace]
         )
     }
 }

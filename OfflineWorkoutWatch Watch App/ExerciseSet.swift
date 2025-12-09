@@ -19,6 +19,8 @@ final class ExerciseSet {
     var weightLbs: Double?
     var durationSeconds: Int?
     var distanceMeters: Double?
+    var avgPaceSeconds: Int? // Pace in seconds per unit (km or mile)
+    var paceUnit: String? // "km" or "mi" - which unit the pace is per
     var steps: Int?
     
     // Flags - CloudKit requires default values for non-optional attributes
@@ -35,6 +37,8 @@ final class ExerciseSet {
         weightLbs: Double? = nil,
         durationSeconds: Int? = nil,
         distanceMeters: Double? = nil,
+        avgPaceSeconds: Int? = nil,
+        paceUnit: String? = nil,
         steps: Int? = nil,
         isBodyweight: Bool = false,
         painLevel: Int? = nil,
@@ -48,6 +52,8 @@ final class ExerciseSet {
         self.weightLbs = weightLbs
         self.durationSeconds = durationSeconds
         self.distanceMeters = distanceMeters
+        self.avgPaceSeconds = avgPaceSeconds
+        self.paceUnit = paceUnit
         self.steps = steps
         self.isBodyweight = isBodyweight
         self.painLevel = painLevel
@@ -62,6 +68,7 @@ final class ExerciseSet {
                weightLbs != nil || 
                durationSeconds != nil || 
                distanceMeters != nil || 
+               avgPaceSeconds != nil ||
                steps != nil || 
                isBodyweight ||
                painLevel != nil
@@ -93,5 +100,16 @@ extension ExerciseSet {
      */
     func setDistanceMiles(_ miles: Double) {
         self.distanceMeters = miles / 0.000621371
+    }
+    
+    /**
+     * Converts pace from seconds to formatted string (mm:ss).
+     */
+    var paceFormatted: String? {
+        guard let seconds = avgPaceSeconds else { return nil }
+        let minutes = seconds / 60
+        let remainingSeconds = seconds % 60
+        let unit = paceUnit ?? "km"
+        return String(format: "%d:%02d/%@", minutes, remainingSeconds, unit)
     }
 }

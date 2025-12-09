@@ -242,6 +242,8 @@ final class WatchWorkoutViewModel {
         weightLbs: Double? = nil,
         durationSeconds: Int? = nil,
         distanceMeters: Double? = nil,
+        avgPaceSeconds: Int? = nil,
+        paceUnit: String? = nil,
         steps: Int? = nil,
         isBodyweight: Bool = false,
         painLevel: Int? = nil,
@@ -259,6 +261,8 @@ final class WatchWorkoutViewModel {
             weightLbs: weightLbs,
             durationSeconds: durationSeconds,
             distanceMeters: distanceMeters,
+            avgPaceSeconds: avgPaceSeconds,
+            paceUnit: paceUnit,
             steps: steps,
             isBodyweight: isBodyweight,
             painLevel: painLevel,
@@ -298,6 +302,8 @@ final class WatchWorkoutViewModel {
         weightLbs: Double? = nil,
         durationSeconds: Int? = nil,
         distanceMeters: Double? = nil,
+        avgPaceSeconds: Int? = nil,
+        paceUnit: String? = nil,
         steps: Int? = nil,
         isBodyweight: Bool = false,
         painLevel: Int? = nil,
@@ -308,6 +314,8 @@ final class WatchWorkoutViewModel {
         exerciseSet.weightLbs = weightLbs
         exerciseSet.durationSeconds = durationSeconds
         exerciseSet.distanceMeters = distanceMeters
+        exerciseSet.avgPaceSeconds = avgPaceSeconds
+        exerciseSet.paceUnit = paceUnit
         exerciseSet.steps = steps
         exerciseSet.isBodyweight = isBodyweight
         exerciseSet.painLevel = painLevel
@@ -437,6 +445,8 @@ final class WatchWorkoutViewModel {
             weightLbs: lastSet.weightLbs,
             durationSeconds: lastSet.durationSeconds,
             distanceMeters: lastSet.distanceMeters,
+            avgPaceSeconds: lastSet.avgPaceSeconds,
+            paceUnit: lastSet.paceUnit,
             steps: lastSet.steps,
             isBodyweight: lastSet.isBodyweight,
             painLevel: lastSet.painLevel,

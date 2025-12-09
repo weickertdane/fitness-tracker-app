@@ -28,10 +28,15 @@ struct AddSetFormView: View {
     @State private var durationMinutes: String = ""
     @State private var durationSeconds: String = ""
     @State private var distanceValue: String = ""
-    @State private var distanceUnit: DistanceUnit = .meters
+    @State private var distanceUnit: DistanceUnit = .kilometers
     @State private var steps: String = ""
     @State private var painLevel: Int = 1
     @State private var rangeOfMotion: Int = 5
+    
+    // Avg. Pace state
+    @State private var paceMinutes: String = ""
+    @State private var paceSeconds: String = ""
+    @State private var paceUnit: DistanceUnit = .kilometers
     
     @State private var showingError = false
     @State private var errorMessage = ""
@@ -43,6 +48,8 @@ struct AddSetFormView: View {
     @State private var showingDurationSecondsNumberPad = false
     @State private var showingDistanceNumberPad = false
     @State private var showingStepsNumberPad = false
+    @State private var showingPaceMinutesNumberPad = false
+    @State private var showingPaceSecondsNumberPad = false
     
     var body: some View {
         ScrollView {
@@ -66,6 +73,10 @@ struct AddSetFormView: View {
                     
                     if exercise.allowedMetrics.contains(.distanceMeters) {
                         distanceField
+                    }
+                    
+                    if exercise.allowedMetrics.contains(.avgPace) {
+                        avgPaceField
                     }
                     
                     if exercise.allowedMetrics.contains(.steps) {
@@ -308,6 +319,16 @@ struct AddSetFormView: View {
                 .font(.caption)
                 .fontWeight(.medium)
             
+            // Unit selection checkboxes (km and miles only)
+            HStack(spacing: 8) {
+                unitCheckbox(unit: .kilometers, selected: distanceUnit == .kilometers) {
+                    distanceUnit = .kilometers
+                }
+                unitCheckbox(unit: .miles, selected: distanceUnit == .miles) {
+                    distanceUnit = .miles
+                }
+            }
+            
             Button(action: {
                 showingDistanceNumberPad = true
             }) {
@@ -331,14 +352,6 @@ struct AddSetFormView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 8))
             }
             .buttonStyle(PlainButtonStyle())
-            
-            Picker("Unit", selection: $distanceUnit) {
-                ForEach(DistanceUnit.allCases, id: \.self) { unit in
-                    Text(unit.displayName).tag(unit)
-                }
-            }
-            .pickerStyle(.wheel)
-            .frame(height: 100)
         }
         .sheet(isPresented: $showingDistanceNumberPad) {
             NumberPadView(value: $distanceValue, allowDecimal: true) {
@@ -405,6 +418,118 @@ struct AddSetFormView: View {
         .clipShape(RoundedRectangle(cornerRadius: 12))
     }
     
+    private var avgPaceField: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Avg. Pace")
+                .font(.caption)
+                .fontWeight(.medium)
+            
+            // Unit selection checkboxes
+            HStack(spacing: 8) {
+                unitCheckbox(unit: .kilometers, selected: paceUnit == .kilometers) {
+                    paceUnit = .kilometers
+                }
+                unitCheckbox(unit: .miles, selected: paceUnit == .miles) {
+                    paceUnit = .miles
+                }
+            }
+            
+            // Minutes and seconds input
+            HStack(spacing: 6) {
+                VStack(spacing: 2) {
+                    Button(action: {
+                        showingPaceMinutesNumberPad = true
+                    }) {
+                        HStack {
+                            Text(paceMinutes.isEmpty ? "0" : paceMinutes)
+                                .foregroundColor(.primary)
+                            
+                            Spacer()
+                            
+                            Image(systemName: "keyboard")
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                        }
+                        .padding(.horizontal, 6)
+                        .padding(.vertical, 4)
+                        .background(Color.gray.opacity(0.2))
+                        .clipShape(RoundedRectangle(cornerRadius: 6))
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                    
+                    Text("min")
+                        .font(.caption2)
+                        .foregroundColor(.secondary)
+                }
+                
+                Text(":")
+                    .font(.title2)
+                    .foregroundColor(.secondary)
+                
+                VStack(spacing: 2) {
+                    Button(action: {
+                        showingPaceSecondsNumberPad = true
+                    }) {
+                        HStack {
+                            Text(paceSeconds.isEmpty ? "00" : paceSeconds)
+                                .foregroundColor(.primary)
+                            
+                            Spacer()
+                            
+                            Image(systemName: "keyboard")
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                        }
+                        .padding(.horizontal, 6)
+                        .padding(.vertical, 4)
+                        .background(Color.gray.opacity(0.2))
+                        .clipShape(RoundedRectangle(cornerRadius: 6))
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                    
+                    Text("sec")
+                        .font(.caption2)
+                        .foregroundColor(.secondary)
+                }
+                
+                Text("/\(paceUnit == .kilometers ? "km" : "mi")")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
+        }
+        .sheet(isPresented: $showingPaceMinutesNumberPad) {
+            NumberPadView(value: $paceMinutes) {
+                showingPaceMinutesNumberPad = false
+            }
+        }
+        .sheet(isPresented: $showingPaceSecondsNumberPad) {
+            NumberPadView(value: $paceSeconds) {
+                showingPaceSecondsNumberPad = false
+            }
+        }
+    }
+    
+    // MARK: - Helper Views
+    
+    private func unitCheckbox(unit: DistanceUnit, selected: Bool, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            HStack(spacing: 4) {
+                Image(systemName: selected ? "checkmark.circle.fill" : "circle")
+                    .font(.caption)
+                    .foregroundColor(selected ? .green : .gray)
+                
+                Text(unit == .kilometers ? "km" : "mi")
+                    .font(.caption2)
+                    .foregroundColor(.primary)
+            }
+            .padding(.horizontal, 8)
+            .padding(.vertical, 4)
+            .background(selected ? Color.green.opacity(0.1) : Color.gray.opacity(0.1))
+            .clipShape(RoundedRectangle(cornerRadius: 6))
+        }
+        .buttonStyle(PlainButtonStyle())
+    }
+    
     // MARK: - Actions
     
     private func saveSet() {
@@ -420,6 +545,8 @@ struct AddSetFormView: View {
         let weightValue = (weightLbs.isEmpty || isBodyweight) ? nil : Double(weightLbs)
         let durationValue = calculateDurationSeconds()
         let distanceInMeters = calculateDistanceInMeters()
+        let avgPaceValue = calculatePaceSeconds()
+        let paceUnitValue = avgPaceValue != nil ? (paceUnit == .kilometers ? "km" : "mi") : nil
         let stepsValue = steps.isEmpty ? nil : Int(steps)
         let painValue = exercise.allowedMetrics.contains(.pain) ? painLevel : nil
         let romValue = exercise.goal == .rehab ? rangeOfMotion : nil
@@ -429,6 +556,7 @@ struct AddSetFormView: View {
                         weightValue != nil || 
                         durationValue != nil || 
                         distanceInMeters != nil || 
+                        avgPaceValue != nil ||
                         stepsValue != nil || 
                         isBodyweight ||
                         painValue != nil
@@ -446,6 +574,7 @@ struct AddSetFormView: View {
         print("  - Weight: \(weightValue?.description ?? "nil")")
         print("  - Duration: \(durationValue?.description ?? "nil")")
         print("  - Distance: \(distanceInMeters?.description ?? "nil")")
+        print("  - Avg Pace: \(avgPaceValue?.description ?? "nil") per \(paceUnitValue ?? "nil")")
         print("  - Steps: \(stepsValue?.description ?? "nil")")
         print("  - Bodyweight: \(isBodyweight)")
         print("  - Pain: \(painValue?.description ?? "nil")")
@@ -460,6 +589,8 @@ struct AddSetFormView: View {
                 weightLbs: weightValue,
                 durationSeconds: durationValue,
                 distanceMeters: distanceInMeters,
+                avgPaceSeconds: avgPaceValue,
+                paceUnit: paceUnitValue,
                 steps: stepsValue,
                 isBodyweight: isBodyweight,
                 painLevel: painValue,
@@ -473,6 +604,8 @@ struct AddSetFormView: View {
                 weightLbs: weightValue,
                 durationSeconds: durationValue,
                 distanceMeters: distanceInMeters,
+                avgPaceSeconds: avgPaceValue,
+                paceUnit: paceUnitValue,
                 steps: stepsValue,
                 isBodyweight: isBodyweight,
                 painLevel: painValue,
@@ -511,6 +644,14 @@ struct AddSetFormView: View {
         }
     }
     
+    private func calculatePaceSeconds() -> Int? {
+        let minutes = Int(paceMinutes) ?? 0
+        let seconds = Int(paceSeconds) ?? 0
+        
+        let totalSeconds = (minutes * 60) + seconds
+        return totalSeconds > 0 ? totalSeconds : nil
+    }
+    
     private func prefillFromEditingSet(_ set: ExerciseSet) {
         // Pre-fill form fields with values from the editing set
         if let repsValue = set.reps {
@@ -531,8 +672,35 @@ struct AddSetFormView: View {
         }
         
         if let distance = set.distanceMeters {
-            distanceValue = String(Int(distance))
-            // Keep default distance unit
+            // Convert meters back to display unit (default is km)
+            if distanceUnit == .kilometers {
+                let km = distance / 1000
+                if km.truncatingRemainder(dividingBy: 1) == 0 {
+                    distanceValue = String(Int(km))
+                } else {
+                    distanceValue = String(format: "%.1f", km)
+                }
+            } else if distanceUnit == .miles {
+                let miles = distance * 0.000621371
+                if miles.truncatingRemainder(dividingBy: 1) == 0 {
+                    distanceValue = String(Int(miles))
+                } else {
+                    distanceValue = String(format: "%.1f", miles)
+                }
+            } else {
+                distanceValue = String(Int(distance))
+            }
+        }
+        
+        if let pace = set.avgPaceSeconds {
+            let minutes = pace / 60
+            let seconds = pace % 60
+            paceMinutes = minutes > 0 ? String(minutes) : ""
+            paceSeconds = seconds > 0 ? String(seconds) : ""
+        }
+        
+        if let unit = set.paceUnit {
+            paceUnit = unit == "mi" ? .miles : .kilometers
         }
         
         if let stepsValue = set.steps {
@@ -570,8 +738,35 @@ struct AddSetFormView: View {
         }
         
         if let distance = lastSet.distanceMeters {
-            distanceValue = String(Int(distance))
-            // Keep default distance unit
+            // Convert meters back to display unit (default is km)
+            if distanceUnit == .kilometers {
+                let km = distance / 1000
+                if km.truncatingRemainder(dividingBy: 1) == 0 {
+                    distanceValue = String(Int(km))
+                } else {
+                    distanceValue = String(format: "%.1f", km)
+                }
+            } else if distanceUnit == .miles {
+                let miles = distance * 0.000621371
+                if miles.truncatingRemainder(dividingBy: 1) == 0 {
+                    distanceValue = String(Int(miles))
+                } else {
+                    distanceValue = String(format: "%.1f", miles)
+                }
+            } else {
+                distanceValue = String(Int(distance))
+            }
+        }
+        
+        if let pace = lastSet.avgPaceSeconds {
+            let minutes = pace / 60
+            let seconds = pace % 60
+            paceMinutes = minutes > 0 ? String(minutes) : ""
+            paceSeconds = seconds > 0 ? String(seconds) : ""
+        }
+        
+        if let unit = lastSet.paceUnit {
+            paceUnit = unit == "mi" ? .miles : .kilometers
         }
         
         if let stepsValue = lastSet.steps {

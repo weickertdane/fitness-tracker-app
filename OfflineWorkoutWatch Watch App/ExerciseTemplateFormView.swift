@@ -335,6 +335,7 @@ struct ExerciseTemplateFormView: View {
         case .weightLbs: return "Weight"
         case .durationSeconds: return "Duration"
         case .distanceMeters: return "Distance"
+        case .avgPace: return "Avg. Pace"
         case .steps: return "Steps"
         case .pain: return "Pain Level"
         }

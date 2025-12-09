@@ -8,6 +8,7 @@ enum MetricType: String, Codable, CaseIterable, Sendable {
     case weightLbs = "weightLbs"
     case durationSeconds = "durationSeconds"
     case distanceMeters = "distanceMeters"
+    case avgPace = "avgPace"
     case steps = "steps"
     case pain = "pain"
     

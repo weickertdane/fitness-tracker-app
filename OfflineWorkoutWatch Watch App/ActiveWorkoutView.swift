@@ -315,9 +315,26 @@ struct SetRow: View {
             }
         }
         
-        // Distance
+        // Distance - show in km if >= 1km, otherwise in meters
         if let distance = exerciseSet.distanceMeters {
-            components.append("\(Int(distance))m")
+            if distance >= 1000 {
+                let km = distance / 1000
+                if km.truncatingRemainder(dividingBy: 1) == 0 {
+                    components.append("\(Int(km)) km")
+                } else {
+                    components.append(String(format: "%.1f km", km))
+                }
+            } else {
+                components.append("\(Int(distance)) m")
+            }
+        }
+        
+        // Avg Pace
+        if let pace = exerciseSet.avgPaceSeconds {
+            let minutes = pace / 60
+            let seconds = pace % 60
+            let unit = exerciseSet.paceUnit ?? "km"
+            components.append("\(minutes):\(String(format: "%02d", seconds))/\(unit)")
         }
         
         // Steps

@@ -140,7 +140,7 @@ struct ExerciseFormView: View {
     
     private func isAdvancedMetric(_ metric: MetricType) -> Bool {
         switch metric {
-        case .distanceMeters, .steps:
+        case .distanceMeters, .steps, .avgPace:
             return true
         case .reps, .weightLbs, .durationSeconds, .pain:
             return false
@@ -153,6 +153,7 @@ struct ExerciseFormView: View {
         case .weightLbs: return "Weight (lbs)"
         case .durationSeconds: return "Duration"
         case .distanceMeters: return "Distance"
+        case .avgPace: return "Avg. Pace"
         case .steps: return "Steps"
         case .pain: return "Pain Level"
         }
